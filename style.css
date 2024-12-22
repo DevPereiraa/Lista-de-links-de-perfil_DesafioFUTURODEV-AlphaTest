@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+body{
+    background: #111111;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272727 ;
+    width: 354px;
+    height: 551px;
+    border-radius: 53px;
+}
+
+.card h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.more{
+    position: absolute;
+    margin-left: 284px;
+    margin-top: 26px;
+}
+
+.more :hover{
+    cursor: pointer;
+
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 48px;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500px;
+    color: black;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    width: 288px;
+    height: 48px;
+    border-radius: 18px;
+}
+
+#github{
+    margin-left: 24px;
+    margin-right: 60px;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500px;
+    color: black;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    width: 288px;
+    height: 48px;
+    border-radius: 18px;
+}
+
+#linkedin{
+    margin-left: 24px;
+    margin-right: 60px;
+}
+.FD{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500px;
+    color: black;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    width: 288px;
+    height: 48px;
+    border-radius: 18px;
+}
+
+#FDev{
+    margin-left: 24px;
+    margin-right: 60px;
+}
+
+.github:hover{
+    background-color: #f2f2f2;
+    color: #111111;
+    cursor: pointer;
+}   
+
+.linkedin:hover{    
+    background-color: #f2f2f2;    
+    color: #111111;
+    cursor: pointer;
+}
+
+.FD:hover{
+    background-color: #f2f2f2;
+    color: #111111;
+    cursor: pointer;
+}
